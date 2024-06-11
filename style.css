@@ -12,7 +12,7 @@
   justify-items: center;
 }
 h3 {
-  font-size: large;
+  font-size: 4em;
 }
 
 h3,
@@ -24,6 +24,9 @@ a {
 h3,
 h5 {
   font-weight: 700;
+}
+.basic-info p a {
+  font-size: 2em;
 }
 
 .profile-picture,
