@@ -1,0 +1,105 @@
+
+* {
+    box-sizing: border-box;
+    background-color: #1A1B21;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  
+}
+
+
+
+.root{
+    margin: 0 auto;
+    display: flex;
+    justify-items: center;
+}
+
+h3, h5, p, a{
+    color:#ffff;
+}
+h3,h5{
+    font-weight: 700;
+}
+
+
+
+.profile-picture,img{
+    border-radius: 30px 30px 0px 0px;
+    width: 100%;
+  
+
+    
+}
+
+.basic-info{
+    display: block;
+    margin: 0 auto;
+    margin-top:1.7em;
+    margin-bottom: 1.5em;
+    text-align: center;
+    line-height: .3em;
+    
+}
+
+.charge, .website{
+color: #F3BF99;
+font-weight: 300;
+font-size: small;
+}
+.website{
+    color: white;
+    font-size: x-small;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.email-btn, .linkedin-btn{
+    border-radius: 10px;
+    background-color: #D1D5DB;
+    padding: 1em 2em;
+    color:#374151;
+
+}
+
+.email-icon, .linkedin-icon {
+    margin-right: 8px;
+    width: 1em;
+    border-radius: 0; /* Asegúrate de que no se aplique borde redondeado */
+    background-color: unset;
+}
+
+
+
+.email-btn:hover {
+    background-color: #f0f0f0;
+}
+
+.linkedin-btn{
+    background-color: #5093E2;
+    color: white;
+}
+
+.linkedin-btn:hover{
+    background-color: #297AD9;
+}
+
+.about-section{
+    padding: 2em 2em;
+}
+
+
+.footer-section{
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+}
+
+.footer-icons{
+    border-radius: 0px;
+    ;
+}
